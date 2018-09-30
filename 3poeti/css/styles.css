@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 16px;
 }
 #heading {
     width: 100vw;
@@ -10,6 +11,7 @@
     display: flex;
     align-items: center;
     padding-left: 20px;
+    margin-bottom: 10px;
 }
 #heading h1 {
     font-size: 2.5rem;
@@ -22,13 +24,82 @@
     height: 90vh;
 }
 #poets .poets-menu {
-    border: 2px solid red;
-    width: 20%;
+    width: 15%;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
 }
 #poets .poets-bio {
-    border: 2px solid red;
-    width: 80%;
+    width: 85%;
+}
+
+#poets .poets-bio .poets-bio__info{
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+#poets .poets-bio .poets-bio__info .poets-bio__info-image{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#poets .poets-bio .poets-bio__info .poets-bio__info-data{
+    width: 85%;
+    height: 100%;
+    padding-left: 30px;
+}
+#poets .title {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+.poets-bio__other-info {
+    height: 20%;
+}
+.info-poet {
+    font-size: 1.2rem;
+    padding: 5px;
+}
+.next-poet {
+    background-color: #333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#poets .poets-menu .poets-menu__btn {
+    height: 45px;
+    border: 1px solid #1a1919;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #ddd, #fff);
+}
+.poets-menu a {
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: #1a1919;
+}
+#main-index {
+    height: 40%;
+}
+#main-index h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+#main-index h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+#main-index ul {
+    padding: 10px 40px 40px 40px ;
+}
+#main-index ul li {
+    margin-top: 10px;
+    font-size: 1.7rem;
 }
