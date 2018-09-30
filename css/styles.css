@@ -21,3 +21,33 @@ body {
     background-color: #336E7B;
     color: #fff;
 }
+#main-box .boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+#main-box .box {
+    height: 200px;
+    border-radius: 10px;
+    background-color: aqua;
+    padding: 10px;
+}
+#main-box .box a {
+    display: block;
+    text-decoration: none;
+    background-color: #ee831e;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+#main-box .box .box-title {
+    margin: 0px 20px;
+}
+#main-box .box .box-body {
+    margin: 10px;
+    text-align: center;
+}
