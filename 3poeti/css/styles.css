@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#heading {
+    width: 100vw;
+    height: 10vh;
+    background-color: #F0F0F0;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+#heading h1 {
+    font-size: 2.5rem;
+}
+
+#poets {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 90vh;
+}
+#poets .poets-menu {
+    border: 2px solid red;
+    width: 20%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+#poets .poets-bio {
+    border: 2px solid red;
+    width: 80%;
+}
