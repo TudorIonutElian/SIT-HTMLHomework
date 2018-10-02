@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #f5f8f5;
+}
+#main {
+    width: 100vw;
+    height: 100vh;
+}
+.menu {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.menu .logo {
+    width: 20%;
+    padding: 15%;
+}
+.menu .nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding: 15%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu .nav-links li {
+    min-width: 150px;
+    text-align: center;
+    padding: 5%;
+    
+}
+.menu .nav-links li:hover {
+    box-sizing: border-box;
+    border-bottom: 1px solid #0fe7e7;    
+}
+
+.menu .nav-links li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    
+}
+
+#judete {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.judet {
+    padding: 5%;
+}
+.judet:hover {
+    border: 2px solid #09abb1;
+    padding: 5%;
+}
+.judet:hover>.nume-judet {
+   color:  #09abb1;
+}
+.judet p {
+    margin: 5px 0;
+    text-align: center;
+}
+
+
